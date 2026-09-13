@@ -1,0 +1,7 @@
+{
+  "name":"reorderpilot-mvp",
+  "version":"0.1.0",
+  "private":true,
+  "type":"module",
+  "scripts":{"build":"tsc","test":"tsc -p tsconfig.test.json && node test-dist/tests/replenishment.test.js"}
+}
